@@ -1,0 +1,51 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Your Letter</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@600;700&family=Inter:wght@400;500;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <header class="site-header">
+    <a class="brand" href="index.html">For Her</a>
+    <nav aria-label="Main navigation">
+      <a aria-current="page" href="letter.html">Letter</a>
+      <a href="memories.html">Memories</a>
+      <a href="reasons.html">Reasons</a>
+      <a href="wish.html">Wish</a>
+    </nav>
+  </header>
+
+  <main class="page-shell">
+    <section class="page-intro">
+      <p class="eyebrow">Tap the envelope</p>
+      <h1 data-letter-title>Your birthday letter</h1>
+      <p data-letter-intro>There are things I say all the time, and things I should say more. This is one of the more ones.</p>
+    </section>
+
+    <section class="letter-stage">
+      <button class="envelope" type="button" aria-expanded="false" aria-controls="birthday-letter">
+        <span class="envelope-back"></span>
+        <span class="paper-preview">open me</span>
+        <span class="envelope-front"></span>
+        <span class="envelope-flap"></span>
+      </button>
+
+      <article class="letter-paper" id="birthday-letter" data-letter-body>
+        <p>Dear <span data-gf-name>my love</span>,</p>
+        <p>Happy birthday. I hope today makes you feel as loved, noticed, and celebrated as you make the people around you feel. You have this way of making ordinary days softer and brighter, and I am so lucky I get to know you up close.</p>
+        <p>I love your laugh, your heart, your little habits, your patience with me, and the way being around you makes everything feel more like home.</p>
+        <p>This year, I hope life gives you more peace, more joy, more reasons to smile, and more moments where you realize how deeply you are loved.</p>
+        <p class="signature">Always,<br><span data-your-name>Me</span></p>
+      </article>
+    </section>
+  </main>
+
+  <script src="content.js"></script>
+  <script src="script.js"></script>
+</body>
+</html>

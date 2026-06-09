@@ -1,0 +1,45 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Reasons I Love You</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@600;700&family=Inter:wght@400;500;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <header class="site-header">
+    <a class="brand" href="index.html">For Her</a>
+    <nav aria-label="Main navigation">
+      <a href="letter.html">Letter</a>
+      <a href="memories.html">Memories</a>
+      <a aria-current="page" href="reasons.html">Reasons</a>
+      <a href="wish.html">Wish</a>
+    </nav>
+  </header>
+
+  <main class="page-shell">
+    <section class="page-intro">
+      <p class="eyebrow">Click a heart</p>
+      <h1>A few reasons</h1>
+      <p>Every heart reveals one reason. Edit the list in <code>script.js</code> to make it completely yours.</p>
+    </section>
+
+    <section class="reason-board" aria-label="Reasons I love you">
+      <button class="heart-button" type="button" data-reason-index="0">1</button>
+      <button class="heart-button" type="button" data-reason-index="1">2</button>
+      <button class="heart-button" type="button" data-reason-index="2">3</button>
+      <button class="heart-button" type="button" data-reason-index="3">4</button>
+      <button class="heart-button" type="button" data-reason-index="4">5</button>
+      <button class="heart-button" type="button" data-reason-index="5">6</button>
+    </section>
+
+    <p class="reason-output" aria-live="polite">Pick a heart to reveal a reason.</p>
+  </main>
+
+  <script src="content.js"></script>
+  <script src="script.js"></script>
+</body>
+</html>

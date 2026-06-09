@@ -1,0 +1,41 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Make a Wish</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@600;700&family=Inter:wght@400;500;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <header class="site-header">
+    <a class="brand" href="index.html">For Her</a>
+    <nav aria-label="Main navigation">
+      <a href="letter.html">Letter</a>
+      <a href="memories.html">Memories</a>
+      <a href="reasons.html">Reasons</a>
+      <a aria-current="page" href="wish.html">Wish</a>
+    </nav>
+  </header>
+
+  <main class="wish-page">
+    <section class="wish-panel">
+      <p class="eyebrow">Birthday magic</p>
+      <h1 data-wish-title>Make a wish</h1>
+      <p data-wish-message>Close your eyes, make the biggest wish, then press the candle.</p>
+      <button class="candle-button" type="button" aria-label="Blow out the birthday candle">
+        <span class="flame"></span>
+        <span class="wick"></span>
+        <span class="candle"></span>
+      </button>
+      <p class="wish-message" aria-live="polite">Your wish is waiting.</p>
+    </section>
+    <div class="star-field" aria-hidden="true"></div>
+  </main>
+
+  <script src="content.js"></script>
+  <script src="script.js"></script>
+</body>
+</html>
